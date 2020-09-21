@@ -1,8 +1,5 @@
 # Projeto NETFLIX
-Tentativa de copiar o site da netflix e seus recursos.
+Desenvolvimento do clone da Netflix durante as aulas da DIO.
 
-<p align="center">
-<img src="img/netflix.png">
-</p>
 
 
