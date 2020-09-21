@@ -58,9 +58,28 @@ align-items: flex-start;
 }
 
 .filme-principal .descricao{
+margin-top: 10px;
 margin-bottom: 40px;
 }
 
-.titulo{
+.filme-principal .titulo{
+margin-top: 15%;
 font-size: 40px;
+font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+background-color: rgba(0,0,0,.50);
+border: none;
+color: white;
+
+padding: 15px 30px;
+
+cursor: pointer;
+transition: .3s ease all;
+}
+
+.botao:hover{
+background-color: #fff;
+color: black;
 }
