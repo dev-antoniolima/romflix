@@ -83,3 +83,7 @@ transition: .3s ease all;
 background-color: #fff;
 color: black;
 }
+
+.botao i{
+margin-right: 18px;
+}
