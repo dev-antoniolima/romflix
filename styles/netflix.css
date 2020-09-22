@@ -87,3 +87,9 @@ color: black;
 .botao i{
 margin-right: 18px;
 }
+
+.box-filme{
+height: 100%;
+width: 100%;
+display: block;
+}
