@@ -14,7 +14,6 @@ box-sizing: border-box;
 /*elementos base*/
 body{
 background: var(--preta);
-font-family: 'Arial', Times, serif;
 color: white;
 }
 
@@ -56,7 +55,6 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
-
 }
 
 .filme-principal .descricao{
@@ -73,7 +71,7 @@ font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
 .botao{
-background-color: rgba(0,0,0,.50);
+background-color: rgba(102, 98, 98, 0.979);
 border: none;
 color: white;
 margin-left: 10px;
@@ -82,10 +80,11 @@ padding: 15px 30px;
 
 cursor: pointer;
 transition: .3s ease all;
+margin-bottom: 5%;
 }
 
 .botao:hover{
-background-color: rgba(22, 10, 185, 0.603);
+background-color: rgb(77, 67, 211);
 color: black;
 }
 
@@ -96,39 +95,42 @@ margin-right: 18px;
 .box-filme{
 height: 100%;
 width: 100%;
-display: block;
+display: flex;
 }
 
 .carrosel-filmes{
 margin-top: 5px;
 }
-
-.games-cover{
-margin-bottom: 5%;
+  
+.game-broxo{
+background-color: rgba(128, 95, 206, 0.274) ;
 }
-    
-    
-.games-cover img{
-border-radius: 20px;
+
+.game-broxo{
+background-color: rgba(128, 95, 206, 0.274) ;
+}
+
+
+.game-broxo img, .game-bpreto img{
+border-radius: 10px;
 width: 20%;
 height: 20%;
 margin: 10%;
-margin-right: 40%; 
-margin-bottom: 5%;
+margin-left: 37%; 
+margin-bottom: 1%;
 margin-top: 5%;
 }
-    
-.games-cover h3{
-color: rgb(255, 255, 255);
-margin-left: 41%;
+
+.game-broxo p, .game-bpreto p{
+text-align: justify;
+margin-left: 2%;
+margin-right: 2%;
 }
 
-.game-background{
-background-color: rgba(128, 95, 206, 0.274) ;
-padding: 20px;
-
+.botoes-rom{
+margin-left: 40.2%;
+margin-bottom: 0%;
 }
-
 
 .footer{
 bottom: 0;
