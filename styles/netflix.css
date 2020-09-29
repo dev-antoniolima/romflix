@@ -1,5 +1,5 @@
 :root{
---roxo:rgb(128, 95, 206);
+--roxo:rgb(149, 21, 235);
 --preta: #141414;
 --branco: #ffffff;    
 }
@@ -71,7 +71,7 @@ font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
 .botao{
-background-color: rgba(102, 98, 98, 0.979);
+background-color: rgba(43, 40, 40, 0.418);
 border: none;
 color: white;
 margin-left: 10px;
@@ -84,7 +84,7 @@ margin-bottom: 5%;
 }
 
 .botao:hover{
-background-color: rgb(77, 67, 211);
+background-color: rgb(203, 218, 217);
 color: black;
 }
 
@@ -103,11 +103,11 @@ margin-top: 5px;
 }
   
 .game-broxo{
-background-color: rgba(128, 95, 206, 0.274) ;
+background-color: var(--roxo);
 }
 
 .game-broxo{
-background-color: rgba(128, 95, 206, 0.274) ;
+background-color: var(--roxo);
 }
 
 
@@ -116,15 +116,22 @@ border-radius: 10px;
 width: 20%;
 height: 20%;
 margin: 10%;
-margin-left: 37%; 
-margin-bottom: 1%;
+margin-right: 2%; 
+margin-left: 4%;
+margin-bottom: 0%;
 margin-top: 5%;
+float: ;
 }
 
 .game-broxo p, .game-bpreto p{
 text-align: justify;
-margin-left: 2%;
-margin-right: 2%;
+margin-top: 1%;
+margin-left: 30%;
+margin-right: 15%;
+font-size: 20px;
+display: inline-block;
+float: right;
+
 }
 
 .botoes-rom{
