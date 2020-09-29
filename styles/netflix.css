@@ -1,5 +1,5 @@
 :root{
---roxo:rgb(149, 21, 235);
+--roxo: #6419bb;
 --preta: #141414;
 --branco: #ffffff;    
 }
@@ -126,12 +126,14 @@ display: inline-block;
 .game-broxo p, .game-bpreto p{
 text-align: justify;
 margin-top: 1%;
-margin-bottom: 10%;
+margin-bottom: 5%;
 font-size: 20px;
 display: inline-block;
 width:50%;
-
+font-family: "Times New Roman", Times;
 }
+
+
 
 .botoes-rom{
 margin-left: 40.2%;
