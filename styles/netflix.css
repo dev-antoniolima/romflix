@@ -102,8 +102,8 @@ display: flex;
 margin-top: 5px;
 }
   
-.game-broxo{
-background-color: var(--roxo);
+.game-bpreto{
+background-color: var(--preto);
 }
 
 .game-broxo{
@@ -120,17 +120,16 @@ margin-right: 2%;
 margin-left: 4%;
 margin-bottom: 0%;
 margin-top: 5%;
-float: ;
+display: inline-block;
 }
 
 .game-broxo p, .game-bpreto p{
 text-align: justify;
 margin-top: 1%;
-margin-left: 30%;
-margin-right: 15%;
+margin-bottom: 10%;
 font-size: 20px;
 display: inline-block;
-float: right;
+width:50%;
 
 }
 
