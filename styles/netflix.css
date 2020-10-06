@@ -147,8 +147,9 @@ margin: 25px;
 }
 
 .card-text h2{
+color: var(--preta);
 margin-top: 0px;
-font-size: 28px;
+font-size: 25px;
 }
 
 .card-text p {
