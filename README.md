@@ -7,4 +7,5 @@ Desenvolvimento do clone da Netflix durante as aulas da DIO.
 
 <p align="center">
 <img src="/img/romflix.png">
+<img src="/img/roms.gif">  
 <p>
