@@ -7,7 +7,7 @@ Desenvolvimento do clone da Netflix durante as aulas da DIO.
 
 <p align="center">
   
-<h2>Início<h2>
+<h2>INÍCIO<h2>
 <img src="/img/inicio.gif">
 
 <h2>ROMS<h2>
