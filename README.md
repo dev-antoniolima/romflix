@@ -6,6 +6,10 @@ Desenvolvimento do clone da Netflix durante as aulas da DIO.
 </a>                                                               
 
 <p align="center">
+  
+#Início
 <img src="/img/inicio.gif">
+
+#ROMS
 <img src="/img/roms.gif.gif" width=1000px height=500px>  
 <p>
