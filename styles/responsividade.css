@@ -74,6 +74,26 @@ transform: scale(1.2);
 box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 }
 
+.sobre{
+padding: 50px;
+text-align: center;
+margin-top: 10%;
+font-size: 40px;
+background-color:#140d1b2c;
+font-family: 'Arial Black' , Times;
+}
+
+.sobre p{
+font-size: 20px;
+}
+
+
+
+
+
+
+
+
 }
 
 @media screen and (max-width: 600px){
@@ -138,5 +158,21 @@ color: rgb(129, 241, 125);
 transform: scale(1.2);
 box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 }
+
+.sobre{
+padding: 50px;
+text-align: center;
+margin-top: 10%;
+font-size: 30px;
+background-color:#140d1b2c;
+font-family: 'Arial Black' , Times;
+}
+
+.sobre p{
+font-size: 10px;
+}
+
+
+
 
 }
