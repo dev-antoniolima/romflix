@@ -17,35 +17,11 @@ width: 50%;
 }
 
 .card {
-display: grid;
 grid-template-columns: 180px;   
 grid-template-rows: 150px 100px 40px; 
-grid-template-areas: "image" "text" "stats";
-margin-right: 3%;
-margin-left: 2%;
-
-font-family: roboto;
-background: white;
-box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
-text-align: center;
-
-transition: 0.3s ease;
-}
-
-.card-image img{
-grid-area: image;
-width: 100%;
-height: 100%;
-}
-
-.card-text {
-grid-area: text;
-margin: 20px;
 }
 
 .card-text h2{
-color: var(--preta);
-margin-top: 0px;
 font-size: 12px;
 }
 
@@ -55,23 +31,10 @@ font-size: 6px;
 font-weight: 300;
 }
 
-.card-stats {
-background-color: rgb(54, 161, 32);
-}
-
 .card-stats a i {
 margin: 15px;
 font-size: 15px;
 color: white;
-}
-
-.card-stats :hover {
-color: rgb(129, 241, 125);
-}
-
-.card:hover {
-transform: scale(1.2);
-box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 }
 
 .sobre{

@@ -80,7 +80,7 @@ margin-left: 10px;
 padding: 15px 30px;
 
 cursor: pointer;
-transition: .3s ease all;
+transition: .2s ease all;
 margin-bottom: 5%;
 }
 
@@ -122,18 +122,18 @@ margin-bottom: 0%;
 
 .card {
 display: grid;
-grid-template-columns: 300px;   
-grid-template-rows: 200px 200px 80px; 
+grid-template-columns: 290px;   
+grid-template-rows: 200px 200px 50px; 
 grid-template-areas: "image" "text" "stats";
 margin-right: 3%;
 margin-left: 2%;
 
 font-family: roboto;
 background: white;
-box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+box-shadow: 5px 5px 25px rgba(0,0,0,0.9);
 text-align: center;
 
-transition: 0.3s ease;
+transition: 0.2s ease;
 }
 
 .card-image img{
@@ -164,7 +164,7 @@ background-color: rgb(54, 161, 32);
 }
 
 .card-stats a i {
-margin: 30px;
+margin: 10px;
 font-size: 30px;
 color: white;
 }
@@ -174,8 +174,8 @@ color: rgb(129, 241, 125);
 }
 
 .card:hover {
-transform: scale(1.2);
-box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+transform: scale(1.1);
+box-shadow: 15px 15px 15px rgba(0,0,0,0.6);
 }
 
 .sobre{
